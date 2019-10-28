@@ -1,7 +1,8 @@
-package com.cerohawke88.cleanarchitecturemvp
+package com.cerohawke88.cleanarchitecturemvp.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.cerohawke88.cleanarchitecturemvp.R
 
 class MainActivity : AppCompatActivity() {
 
