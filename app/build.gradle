@@ -13,6 +13,8 @@ android {
         versionCode Releases.versionCode
         versionName Releases.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "API_URL", BuildConfigs.ApiUrl)
+
     }
     buildTypes {
         release {
@@ -35,7 +37,7 @@ dependencies {
     implementation Retrofit.retrofit
     implementation Retrofit.gsonConverter
     implementation Retrofit.okHttpLogging
-    implementation Retrofit.coroutinesAdapter
+    implementation Retrofit.rxAdapter
 
     //dependency injection
     implementation Dagger.dagger
