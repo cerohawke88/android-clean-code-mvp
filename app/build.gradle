@@ -26,6 +26,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
     //android support
     implementation Android.appCompat
     implementation Android.ktx
@@ -54,5 +56,6 @@ dependencies {
     implementation Rx.kotlin
     implementation Rx.java
     implementation Rx.rxandroid
-
+    implementation Glide.glide
+    kapt Glide.compiler
 }
