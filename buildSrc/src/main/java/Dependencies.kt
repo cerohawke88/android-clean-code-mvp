@@ -1,6 +1,5 @@
 object ApplicationId {
-    const val abstraction = "com.link.pickpack.abstraction"
-    const val id = "com.link.pickpack.apps"
+    const val id = "com.cerohawke88.cleanarchitecturemvp"
 }
 
 object Releases {
